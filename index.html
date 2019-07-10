@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rock Paper Scissors</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="game-box">
+        <h1>Rock, Paper, Scissors Game</h1>
+        <h2>Rules - Rock beats Scissors, Scissors beats Paper and Paper beats Rock.</h2>
+
+        <h3>Select your move:</h3>
+
+        <div class="options-container">
+            <i id="rock" class="fa fa-hand-rock-o"></i>
+            <i id="paper" class="fa fa-hand-paper-o"></i>
+            <i id="scissors" class="fa fa-hand-scissors-o"></i>
+        </div>
+
+        <div class="choises">
+            <h3>Let's see who wins!</h3>
+            <p id="player-choice">Player</p>
+            <p id="computer-choice">Computer</p>
+            <p id="winner">Winner</p>
+        </div>
+
+        <div class="scoreboard">
+            <span class="board-head">Scoreboard</span>
+            
+            <div class="heads">
+                <span>Player</span>
+                <span>Computer</span>
+            </div>
+
+            <div class="scores">
+                <span id="player-score">0</span>
+                <span id="computer-score">0</span>
+            </div>
+            <button id="reset">Reset Game</button>
+        </div>
+
+
+        
+    </div>
+
+    <script src="app.js"></script>
+</body></html>
